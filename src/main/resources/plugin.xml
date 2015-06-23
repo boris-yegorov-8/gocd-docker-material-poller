@@ -2,7 +2,7 @@
 <go-plugin id="Docker" version="6">
 <about>
     <name>Docker Registry Plugin</name>
-    <version>0.0.1</version>
+    <version>0.0.1-custom</version>
     <target-go-version>14.3</target-go-version>
     <description>Check for new Docker releases in a Docker Registry</description>
     <vendor>
