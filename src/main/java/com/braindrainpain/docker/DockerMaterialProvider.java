@@ -23,7 +23,6 @@ SOFTWARE.
  */
 package com.braindrainpain.docker;
 
-import com.thoughtworks.go.plugin.api.annotation.Extension;
 import com.thoughtworks.go.plugin.api.annotation.Load;
 import com.thoughtworks.go.plugin.api.annotation.UnLoad;
 import com.thoughtworks.go.plugin.api.info.PluginContext;
@@ -37,7 +36,6 @@ import com.thoughtworks.go.plugin.api.material.packagerepository.PackageMaterial
  *
  * @author Jan De Cooman
  */
-@Extension
 public class DockerMaterialProvider implements PackageMaterialProvider {
 
     final private static Logger LOG = 
