@@ -3,7 +3,7 @@
 <about>
     <name>Docker Registry Plugin</name>
     <version>0.0.1-custom</version>
-    <target-go-version>14.3</target-go-version>
+    <target-go-version>16.12.0</target-go-version>
     <description>Check for new Docker releases in a Docker Registry</description>
     <vendor>
         <name>Jan De Cooman</name>
